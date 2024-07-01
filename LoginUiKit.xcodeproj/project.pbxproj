@@ -11,6 +11,12 @@
 		DA6963E52C3215D10010C3FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6963E42C3215D10010C3FA /* ContentView.swift */; };
 		DA6963E72C3215D20010C3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6963E62C3215D20010C3FA /* Assets.xcassets */; };
 		DA6963EA2C3215D20010C3FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6963E92C3215D20010C3FA /* Preview Assets.xcassets */; };
+		DA6963F22C3216DB0010C3FA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6963F12C3216DB0010C3FA /* Login.swift */; };
+		DA6963F52C3218550010C3FA /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6963F42C3218550010C3FA /* View+Extensions.swift */; };
+		DA6963F72C321A980010C3FA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6963F62C321A980010C3FA /* CustomTextField.swift */; };
+		DA6963F92C3221990010C3FA /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6963F82C3221990010C3FA /* GradientButton.swift */; };
+		DAC19AD12C3333B800C7E0E8 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC19AD02C3333B800C7E0E8 /* SignUp.swift */; };
+		DAC19AD32C333BA500C7E0E8 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC19AD22C333BA500C7E0E8 /* ForgotPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		DA6963E42C3215D10010C3FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA6963E62C3215D20010C3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA6963E92C3215D20010C3FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA6963F12C3216DB0010C3FA /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		DA6963F42C3218550010C3FA /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		DA6963F62C321A980010C3FA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DA6963F82C3221990010C3FA /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		DAC19AD02C3333B800C7E0E8 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		DAC19AD22C333BA500C7E0E8 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,8 @@
 		DA6963E12C3215D10010C3FA /* LoginUiKit */ = {
 			isa = PBXGroup;
 			children = (
+				DA6963F32C3217F30010C3FA /* Helpers */,
+				DA6963F02C3216B50010C3FA /* View */,
 				DA6963E22C3215D10010C3FA /* LoginUiKitApp.swift */,
 				DA6963E42C3215D10010C3FA /* ContentView.swift */,
 				DA6963E62C3215D20010C3FA /* Assets.xcassets */,
@@ -65,6 +79,26 @@
 				DA6963E92C3215D20010C3FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA6963F02C3216B50010C3FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA6963F12C3216DB0010C3FA /* Login.swift */,
+				DA6963F62C321A980010C3FA /* CustomTextField.swift */,
+				DA6963F82C3221990010C3FA /* GradientButton.swift */,
+				DAC19AD02C3333B800C7E0E8 /* SignUp.swift */,
+				DAC19AD22C333BA500C7E0E8 /* ForgotPassword.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA6963F32C3217F30010C3FA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA6963F42C3218550010C3FA /* View+Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC19AD12C3333B800C7E0E8 /* SignUp.swift in Sources */,
+				DA6963F22C3216DB0010C3FA /* Login.swift in Sources */,
+				DA6963F92C3221990010C3FA /* GradientButton.swift in Sources */,
+				DAC19AD32C333BA500C7E0E8 /* ForgotPassword.swift in Sources */,
 				DA6963E52C3215D10010C3FA /* ContentView.swift in Sources */,
+				DA6963F52C3218550010C3FA /* View+Extensions.swift in Sources */,
 				DA6963E32C3215D10010C3FA /* LoginUiKitApp.swift in Sources */,
+				DA6963F72C321A980010C3FA /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
